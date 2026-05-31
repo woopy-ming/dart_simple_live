@@ -208,7 +208,7 @@ jobs:
         #完成
       - run: echo "🍏 Linux job's status is ${{ job.status }}."
 
-  # 打包Windows
+  # 打包Window
   build-windows:
     runs-on: windows-latest
     permissions:
